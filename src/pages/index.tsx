@@ -3,7 +3,10 @@ import styles from '../styles/styles.module.scss';
 export default function LandingPage() {
   return (
     <div className={styles.pageContainer}>
-      <p>Lading page works!</p>
+      <h1>
+        Confira o{' '}
+        <span className={styles.test}>plano disponível</span>{' '}
+        para o seu negócio</h1>
     </div>
   );
 }

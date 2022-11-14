@@ -1,3 +1,14 @@
 .pageContainer {
-  // background-color: red;
+  padding: 1rem 1rem;
+
+  h1 {
+    font-size: var(--font-size-sm);
+    line-height: 2rem;
+    text-align: center;
+    padding: 3rem 1rem;
+
+    span {
+      color: var(--color-brand-primary-yellow);
+    }
+  }
 }
