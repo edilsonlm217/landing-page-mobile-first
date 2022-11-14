@@ -1,12 +1,16 @@
-  .header {
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .internalContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 
-    background-color: #2C2C2C;
     padding: 1rem;
-    height: 100px;
+    max-width: 72rem;
 
     div:first-child {
       height: 43px;
@@ -43,3 +47,15 @@
       }
     }
   }
+
+  @media screen and (min-width: 72rem) {
+    & {
+      flex-direction: row;
+      justify-content: center;
+
+      .internalContainer {
+        min-width: 72rem;
+      }
+    }
+  }
+}
