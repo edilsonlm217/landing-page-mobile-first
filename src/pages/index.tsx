@@ -1,3 +1,5 @@
+import CardVitrine from '../components/CardVitrine';
+
 import styles from '../styles/styles.module.scss';
 
 export default function LandingPage() {
@@ -6,7 +8,12 @@ export default function LandingPage() {
       <h1>
         Confira o{' '}
         <span className={styles.test}>plano disponível</span>{' '}
-        para o seu negócio</h1>
+        para o seu negócio
+      </h1>
+
+      <div>
+        <CardVitrine />
+      </div>
     </div>
   );
 }
