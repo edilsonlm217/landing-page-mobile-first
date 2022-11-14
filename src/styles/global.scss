@@ -24,6 +24,8 @@
   --font-size-lg: 2rem;
   --font-size-xl: 2.25rem;
   --font-size-xxl: 3rem;
+
+  --color-brand-primary-yellow: #FFD15A;
 }
 
 body {
@@ -62,6 +64,7 @@ a {
 
   header {
     grid-area: header;
+    background-color: var(--secondary-background-color);
   }
 
   main {
@@ -70,5 +73,6 @@ a {
 
   footer {
     grid-area: footer;
+    background-color: var(--secondary-background-color);
   }
 }
